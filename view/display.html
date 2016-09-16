@@ -1,4 +1,10 @@
 <section class="display">
-display view
-<button ng-click="goToMe()" type="button" name="button"> goes someplace</button>
+  display view
+  search: <input ng-model="pokeName" type="text" name="name" value="">
+  <button ng-click="searchPokemon(pokeName)" type="button" name="button"> submit</button>
+  <section>
+      <img ng-src="{{pokemon.sprites.front_shiny}}" alt=" pokemon image" />
+
+  </section>
+  <button ng-click="goToMe()" type="button" name="button"> goes someplace</button>
 </section>
