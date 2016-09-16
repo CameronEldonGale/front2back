@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="chicken">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css" media="screen" title="no title">
+    <title>front to back</title>
+  </head>
+  <body>
+      <h1>Hello World</h1>
+      {{test}}
+      <button ui-sref="home" type="button" name="button">HOME</button>
+      <br>
+      <ui-view></ui-view>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js" charset="utf-8"></script>
+      <script src="https://npmcdn.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+      <script src="./js/app.js" charset="utf-8"></script>
+      <script src="./js/controllers/mainCtrl.js" charset="utf-8"></script>
+      <script src="./js/controllers/meCtrl.js" charset="utf-8"></script>
+      <script src="./js/controllers/displayCtrl.js" charset="utf-8"></script>
+
+
+      </body>
+</html>
